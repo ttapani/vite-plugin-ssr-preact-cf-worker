@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-ssr-preact-cf-worker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite build && wrangler dev",
+    "deploy": "vite build && wrangler deploy"
+  },
+  "dependencies": {
+    "preact": "^10.16.0",
+    "preact-render-to-string": "^6.2.0",
+    "vite-plugin-ssr": "^0.4.133"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230724.0",
+    "@preact/preset-vite": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "wrangler": "^3.4.0"
+  }
+}

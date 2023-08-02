@@ -1,0 +1,11 @@
+main="./src/worker/index.ts"
+name = "vite-plugin-ssr-preact-cf-worker"
+compatibility_date = "2021-09-29"
+workers_dev = true
+send_metrics = false
+
+[site]
+bucket = "./dist/client"
+
+[dev]
+port = 3000
